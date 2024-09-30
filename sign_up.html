@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+<body>
+    <div class="container">
+        <div class="div1">
+        </div>
+    <div class="div2">
+        <h3>This is not a real one line service! You know you need something like this...</h3>
+        <form id="myForm">
+            <h2>Let's do it!</h2>
+            <div class="left">
+                <label for="first_name">FIRST NAME</label>
+                <input id="first_name" type="text" name="first_name" required>
+                <label for="last_name">LAST NAME</label>
+                <input id="last_name" type="text" name="last_name" required>
+                <label for="email">EMAIL</label>
+                <input id="email" type="email" name="email" required>
+            </div>
+            <div class="right">
+                <label for="phone_number">PHONE NUMBER</label>
+                <input id="phone_number" type="text" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="123-456-7890">
+                <label for="password">PASSWORD</label>
+                <input id="password" type="password" required>
+                <label for="confirm">CONFIRM PASSWORD</label>
+                <input id="confirm" type="password" required>
+            </div>
+            <button type="submit">Create Account</button>
+            <p>Already have an Account? <a href="#">Log in</a></p>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
